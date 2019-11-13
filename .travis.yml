@@ -26,3 +26,4 @@ env:
 script: cd tests && ./run.py $TEST_SUITE && cd ..
 notifications:
     email: false
+- bash <(curl -s https://scripts.scantist.com/ci-travis.sh)
